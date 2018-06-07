@@ -1,9 +1,9 @@
 @import '~@angular/material/theming';
 
-@mixin anms-stock-market-component-theme($theme) {
+@mixin saeed-stock-market-component-theme($theme) {
   $warn: map-get($theme, warn);
 
-  anms-stock-market {
+  saeed-stock-market {
     mat-card {
       span {
         &.negative {
