@@ -2,6 +2,10 @@
   <div class="gradient">
     <div class="container">
       <h1>Saeed sharifi</h1>
+
+      <div id="center">
+        <img [ngClass]="routeAnimationsElements" class="images" src="../../assets/saeed.png" alt="geomap" />
+      </div>
       <div class="actions">
         <a [ngClass]="routeAnimationsElements"
            mat-raised-button class="actions-main" color="primary" routerLink="../features">
@@ -16,7 +20,7 @@
           Contact
         </a>
         <br>
-        <span [ngClass]="routeAnimationsElements"> and more</span>
+        <i style="padding: 20px;" [ngClass]="routeAnimationsElements" class="fa fa-arrow-circle-down fa-2x" aria-hidden="true"></i>
         <br>
         <a mat-raised-button
            [ngClass]="routeAnimationsElements"
