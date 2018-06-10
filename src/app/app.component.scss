@@ -1,4 +1,19 @@
+@font-face {
+  font-family: 'days-Later'; /*a name to be used later*/
+  src: url('../assets/font/days-Later.ttf'); /*URL to font*/
+}
+
 @import '../styles-variables';
+
+.font{
+  font-family: days-Later;
+  font-size: 35px;
+  color: red;
+  letter-spacing: 10px;
+}
+.font img{
+  padding-right: 15px;
+}
 
 :host {
   height: 100%;
